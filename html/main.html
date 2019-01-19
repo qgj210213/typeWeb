@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>net type</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="../css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="../css/style.css" rel="stylesheet"> <!-- SCRIPTS -->
+    <!-- main.css -->
+    <link href="../css/type/main.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="../js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+    <!-- main.js -->
+    <script type="text/javascript" src="../js/type/main.js"></script>
+
+</head>
+
+<body class="container">
+    <header class="headerContent">
+        <div class="divHeightHeader">网页版打字练习</div>
+    </header>
+    <!--Main Navigation-->
+    <!--Main layout-->
+    <main class="mainContent">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse">
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">语言选择</a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelwiledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" id="language_Eng">英语</a>
+                            <a class="dropdown-item" id="language_Jp">日语</a>
+                            <a class="dropdown-item" id="language_Ch">中文</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">文章选择</a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">ss</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">时间选择</a>
+                        <div id="minute_id" class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" id="minute_5" >5分钟</a>
+                            <a class="dropdown-item" id="minute_10" >10分钟</a>
+                            <a class="dropdown-item" id="minute_15" >15分钟</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- article Name  and Article Tyep-->
+        <div class="articeClass">
+            <div>语言类型：<span id="languageType"></span></div>
+            <div>文章标题：<span id="articleTitle"></span></div>
+            <div>时长：<span id="durationMinute"></span></div>
+        </div>
+        <!-- Contextual button for informational alert messages -->
+        <div class="btnContent">
+            <ul style="list-style: none;">
+                <li><button type="button" class="btn btn-info" id="linkTypeStart">开始打字</button></li>
+                <li><button type="button" class="btn btn-info" id="linkArticleImport">文章导入</button></li>
+            </ul>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer class="footerContent">
+        <div>bootstrap 制作</div>
+    </footer>
+    <!--Footer-->
+</body>
+
+</html>
