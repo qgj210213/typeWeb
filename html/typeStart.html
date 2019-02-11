@@ -23,9 +23,9 @@
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="../js/mdb.min.js"></script>
+    <!-- <script type="text/javascript" src="../js/mdb.min.js"></script> -->
     <!-- main.js -->
-    <script type="text/javascript" src="../js/type/main.js"></script>
+    <script type="text/javascript" src="../js/type/typeStart.js"></script>
     <style>
 
     </style>
@@ -36,14 +36,14 @@
         <!-- <div class="divHeightHeader">网页版打字练习-打字</div> -->
         <table class="table table-bordered typetable">
             <tr>
-                <td colspan="5">文章题目：<span></span></td>
+                <td colspan="5">文章题目：<span id="span_article_id"></span></td>
             </tr>
             <tr>
-                <td>时间：</td>
+                <td>时间：<span id="span_time_id"></span></td>
                 <td>速度：</td>
                 <td>成绩：</td>
                 <td>正确率：</td>
-                <td><span>中文</span></td>
+                <td>语言：<span id="span_language_id"></span></td>
             </tr>
 
         </table>
@@ -56,21 +56,22 @@
             <tr><td colspan="5"><input type="text"></td></tr>
             <tr><td colspan="5"><input type="text"></td></tr>
         </table> -->
+        <div id="content_hidden" style="display: none"></div>
         <div id="content" class="type_content font3">
-            <div id="i_0" class="typing typing_on">
+             <!-- <div id="i_0" class="typing typing_on">
                 <div class="text">
-                    <span>Once upon a time a little girl tried to make a living by selling matches in the</span>
+                    <span >Once upon a time a little girl tried to make a living by selling matches in the</span>
                 </div>
-                <!-- <input type="hidden" value="Once upon a time a little girl tried to make a living by selling matches in the"> -->
+                 <input type="hidden" value="Once upon a time a little girl tried to make a living by selling matches in the">
                 <input type="text" autocomplete="off">
-            </div>
-            <div id="i_1" class="typing typing_on">
+            </div>  -->
+            <!-- <div id="i_1" class="typing typing_on">
                 <div class="text">
                     <span>Once upon a time a little girl tried to make a living by selling matches in the thank you this ssss</span>
                 </div>
                 <input type="hidden" value="Once upon a time a little girl tried to make a living by selling matches in the thank you this ssss">
                 <input type="text" autocomplete="off">
-            </div>
+            </div> -->
         </div>
     </main>
     <!--Footer-->

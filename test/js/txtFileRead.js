@@ -1,7 +1,7 @@
 $(function () {
     /** Ajax 读取txt文件显示到画面上*/
     $("#readtxt").click(function () {
-        alert("qgj");
+        // alert("qgj");
         readTxTfile();
     });
 

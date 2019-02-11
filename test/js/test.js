@@ -31,7 +31,7 @@ function  doTextCut2(){
     do{
         textArry[cunt] = strContent.substring(0,10);
         strContent = strContent.substring(10,strContent.length);
-        // console.log("array:--"+cunt+"--content:--"+textArry[cunt]+"--strContent:--"+strContent);
+        console.log("array:--"+cunt+"--content:--"+textArry[cunt]+"--strContent:--"+strContent);
         cunt++;
     }while(strContent.length > 10)
     console.log("cunts:"+cunt);

@@ -3,8 +3,15 @@ $(function () {
     /** main.html js */
     // when click the id of linkTypeStart then link the typeStart.html
     $("#linkTypeStart").click(function () {
+        
+        var name_lan = $("#languageType").text(); //语言选择
+        var name_art = $("#articleTitle").text(); //文章标题
+        var name_min = $("#durationMinute").text(); // 时长
+        
+        var urlContent = '?'+'language='+name_lan+'&article='+name_art+'&time='+name_min;
+        console.log("urlContent-"+urlContent);
         // window.location.href= "../html/typeStart.html";
-        $(window).attr('location', '../html/typeStart.html');
+        $(window).attr('location', '../html/typeStart.html'+urlContent);
     });
     // when click the id  linkArticleImport then open the articleImport.html
     $("#linkArticleImport").click(function(){
